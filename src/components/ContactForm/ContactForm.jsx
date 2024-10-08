@@ -28,7 +28,7 @@ export default class ContactForm extends Component {
     return (
       <div>
         <form className={css.form} onSubmit={this.handleSubmit}>
-          <label lassName={css.formLabel}>
+          <label className={css.formLabel}>
             Name
             <input
               className={css.formName}

@@ -29,7 +29,7 @@ export class App extends Component {
     if (contactsLists.findIndex(contact => name === contact.name) !== -1) {
       alert(`${name} is already in contacts.`);
     } else {
-      contactsLists.push({ name, id, number });
+      contactsLists.push({ id, name, number });
     }
 
     this.setState({ contacts: contactsLists });
